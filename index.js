@@ -25,7 +25,6 @@ const renderAllPokemon = async () => {
   // before we start grabbing things from the page
   const allPokemon = await getAllPokemon();
 
-
   // create an LI for each pokemon name
   const pokemonNamesLIs = allPokemon.map((singlePokemon) => {
     return `<li>${singlePokemon.name}</li>`
