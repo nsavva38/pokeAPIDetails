@@ -10,7 +10,7 @@ const getAllPokemon = async () => {
 
   const response = await fetch(`https://pokeapi.co/api/v2/pokemon`); // grabs the API
   const responseJSON = await response.json(); // converts API call into legible array/object format ( list/dictionary )
-  const allPokemon = responseJSON.results; // responseJSON.results is the array of pokemon names and their details
+  const allPokemon = responseJSON.results; // responseJSON.results is the array of objects of pokemon names and their details
   
   return allPokemon;
 
