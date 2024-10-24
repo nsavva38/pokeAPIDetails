@@ -81,7 +81,7 @@ const renderSinglePokemon = async (pokemonName) => {
 
    // addEventListener to button so when clicked, it can render all the pokemon via renderAllPokemon function
    button.addEventListener(`click`, () => {
-    renderAllPokemon();
+     renderAllPokemon();
    })
 
 
