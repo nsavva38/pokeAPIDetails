@@ -57,7 +57,6 @@ const renderAllPokemon = async () => {
 
 
 
-
 const renderSinglePokemon = async (pokemonName) => {
 
    // make a call to the pokeAPI using the pokemon name that was passed in
