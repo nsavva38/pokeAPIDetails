@@ -1,5 +1,5 @@
 // https://pokeapi.co/api/v2/pokemon/${pokemonName}
-// DO NOT FORGET to reduce width of LIs in the css to prevent clicking on opposite side of the page
+// DO NOT FORGET to reduce width of LIs in the CSS to prevent clicking on opposite side of the page
 
 
 // grab the main element and make it global so it can be used in all functions
