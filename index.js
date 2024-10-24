@@ -37,7 +37,7 @@ const renderAllPokemon = async () => {
   
   // replaceChildren ol to the main so when we go back to the main page, it will go back to what it was
   // Cant use the bunnies method because this is an API I guess
-  // Does replaceChildren replace ALL elements ( children ) within main with the newly created ol??????
+  // Does replaceChildren replace ALL elements ( children ) within main with the newly created and appended ol??????
   main.replaceChildren(ol);
   
   // grab the LIs ( that was just appended via replaceChildren ) from the HTML page
