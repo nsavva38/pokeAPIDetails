@@ -69,7 +69,7 @@ const renderSinglePokemon = async (pokemonName) => {
    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`);
    const pokemonDetails = await response.json();
 
-   // rewrite main's innerHTML to string with the name and img
+   // rewrite main's innerHTML into a string with the name, img, and button to go back to main page
    main.innerHTML = `
    <h2>${pokemonDetails.name}</h2>
    <img src="${pokemonDetails.sprites.front_default}" alt="${pokemonDetails.name} picture" />
