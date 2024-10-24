@@ -46,7 +46,7 @@ const renderAllPokemon = async () => {
   // grab the LIs from the HTML page
   const pokemonLIs = document.querySelectorAll(`li`);
   
-  // addEventListener when user clicks button
+  // addEventListener when user clicks on the single LI/Pokemon
   pokemonLIs.forEach((singlePokemonLI) => {
 
     singlePokemonLI.addEventListener(`click`, async (event) => {
