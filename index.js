@@ -7,8 +7,8 @@ const main = document.querySelector(`main`);
 // fetch the pokemon from the API, don't forget async/await
 const getAllPokemon = async () => {
 
-  const response = await fetch(`https://pokeapi.co/api/v2/pokemon`);
-  const responseJSON = await response.json();
+  const response = await fetch(`https://pokeapi.co/api/v2/pokemon`); // grabs the API
+  const responseJSON = await response.json(); // converts API call into legible array/object format ( list/dictionary )
   const allPokemon = responseJSON.results; // responseJSON.results is the array of pokemon names and their details
   
   return allPokemon;
