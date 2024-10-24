@@ -43,7 +43,7 @@ const renderAllPokemon = async () => {
   main.replaceChildren(ol);
   
   
-  // grab the LIs
+  // grab the LIs from the HTML page
   const pokemonLIs = document.querySelectorAll(`li`);
   
   // addEventListener when user clicks button
