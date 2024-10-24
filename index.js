@@ -43,7 +43,7 @@ const renderAllPokemon = async () => {
   main.replaceChildren(ol);
   
   
-  // grab the LIs from the HTML page
+  // grab the LIs ( that was just appended via replaceChildren ) from the HTML page
   const pokemonLIs = document.querySelectorAll(`li`);
   
   // addEventListener when user clicks on the single LI/Pokemon
