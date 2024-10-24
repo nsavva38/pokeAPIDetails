@@ -82,17 +82,13 @@ const renderSinglePokemon = async (pokemonName) => {
    // grab the button via querySelect
    const button = document.querySelector(`button`);
 
-   // addEventListener to button
+   // addEventListener to button so when clicked, it can render all the pokemon via renderAllPokemon function
    button.addEventListener(`click`, () => {
-
     renderAllPokemon();
-
    })
 
 
 };
-
-
 
 
 
