@@ -65,7 +65,7 @@ const renderAllPokemon = async () => {
 
 const renderSinglePokemon = async (pokemonName) => {
 
-   // make a call to the pokeAPI using the pokemon name
+   // make a call to the pokeAPI using the pokemon name that was passed in
    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`);
    const pokemonDetails = await response.json();
 
