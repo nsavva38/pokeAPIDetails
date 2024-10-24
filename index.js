@@ -1,4 +1,5 @@
 // https://pokeapi.co/api/v2/pokemon/${pokemonName}
+// DO NOT FORGET to reduce width of LIs in the css to prevent clicking on opposite side of the page
 
 
 // grab the main element and make it global so it can be used in all functions
@@ -47,7 +48,7 @@ const renderAllPokemon = async () => {
   
   // addEventListener when user clicks on the single LI/Pokemon
   pokemonLIs.forEach((singlePokemonLI) => {
-    singlePokemonLI.addEventListener(`click`, async (event) => {   // does this have to be async???
+    singlePokemonLI.addEventListener(`click`, async (event) => {   // may not have to be async to work
       //event.target.innerText is the string of the pokemon's name within the LI
       renderSinglePokemon(event.target.innerText);
     })
