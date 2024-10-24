@@ -39,7 +39,7 @@ const renderAllPokemon = async () => {
   // Does replaceChildren replace ALL elements ( children ) within main with the newly created and appended ol??????
   main.replaceChildren(ol);
   
-  // grab the LIs ( that was just appended via replaceChildren ) from the HTML page
+  // grab the LIs ( that was just written via replaceChildren ) from the HTML page
   const pokemonLIs = document.querySelectorAll(`li`);
   
   // addEventListener when user clicks on the single LI/Pokemon
