@@ -45,7 +45,7 @@ const renderAllPokemon = async () => {
   // replaceChildren ol to the main so when we go 
   // back to the main page, it will go back
   // to what it was
-  // cant use the bunnies method cus this is an API
+  // cant use the bunnies method because this is an API I guess
   main.replaceChildren(ol);
   
   
