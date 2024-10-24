@@ -38,7 +38,7 @@ const renderAllPokemon = async () => {
   
   // replaceChildren ol to the main so when we go back to the main page, it will go back to what it was
   // Cant use the bunnies method because this is an API I guess
-  // Does it replace ALL elements within main to the ol??????
+  // Does it replace ALL elements within main to the newly created ol??????
   main.replaceChildren(ol);
   
   
@@ -47,7 +47,6 @@ const renderAllPokemon = async () => {
   
   // addEventListener when user clicks on the single LI/Pokemon
   pokemonLIs.forEach((singlePokemonLI) => {
-
     singlePokemonLI.addEventListener(`click`, async (event) => {
       //event.target.innerText is the string of the pokemon's name within the LI
       renderSinglePokemon(event.target.innerText);
