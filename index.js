@@ -32,8 +32,6 @@ const renderAllPokemon = async () => {
   // create an LI for each pokemon name
   const pokemonNamesLIs = allPokemon.map((singlePokemon) => {
     return `<li>${singlePokemon.name}</li>`
-  
-  
   })
 
   // create the ol via createElement
