@@ -65,7 +65,7 @@ const renderSinglePokemon = async (pokemonName) => {
    const pokemonDetails = await response.json();
 
    // rewrite main's innerHTML into a string with the name, img, and button to go back to main page
-   // No need to use replaceChild here because you are replacing the element within the main with such specific lines of html code
+   // No need to use replaceChild here because you are replacing the elements within the main with such specific lines of html code
    // Look at bottom of page
    main.innerHTML = `
    <h2>${pokemonDetails.name}</h2>
