@@ -55,7 +55,7 @@ const renderAllPokemon = async () => {
 
     singlePokemonLI.addEventListener(`click`, async (event) => {
 
-      //even.target.innerText is the string of the pokemon's name
+      //event.target.innerText is the string of the pokemon's name
       renderSinglePokemon(event.target.innerText);
 
     })
