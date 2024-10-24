@@ -34,7 +34,7 @@ const renderAllPokemon = async () => {
   const ol = document.createElement(`ol`);
     
   // append the LI to the ol via innerHTML because the LIs have li tags
-  ol.innerHTML = pokemonNamesLIs.join(``);
+  ol.innerHTML = pokemonNamesLIs.join(``); // join(``) is used to get rid of all the commas separating the elemnts in the array
   
   // replaceChildren ol to the main so when we go 
   // back to the main page, it will go back
