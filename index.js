@@ -47,7 +47,7 @@ const renderAllPokemon = async () => {
   
   // addEventListener when user clicks on the single LI/Pokemon
   pokemonLIs.forEach((singlePokemonLI) => {
-    singlePokemonLI.addEventListener(`click`, async (event) => {   // may not have to be async to work
+    singlePokemonLI.addEventListener(`click`, (event) => {   // may not have to be async to work
       //event.target.innerText is the string of the pokemon's name within the LI
       renderSinglePokemon(event.target.innerText);
     })
