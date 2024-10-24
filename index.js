@@ -67,7 +67,7 @@ const renderSinglePokemon = async (pokemonName) => {
 
    // rewrite main's innerHTML into a string with the name, img, and button to go back to main page
    // no need to use replaceChild here because you are replacing the element within the main with such specific lines of html code
-   // replaceChild is would be like this probably: *
+   // Look at bottom of page
    main.innerHTML = `
    <h2>${pokemonDetails.name}</h2>
    <img src="${pokemonDetails.sprites.front_default}" alt="${pokemonDetails.name} picture" />
@@ -92,7 +92,7 @@ const renderSinglePokemon = async (pokemonName) => {
 renderAllPokemon();
 
 
-// *
+// to use replaceChildren like in the renderAllPokemon, it be like this probably:
 
 // const newHTML = `
 //    <h2>${pokemonDetails.name}</h2>
