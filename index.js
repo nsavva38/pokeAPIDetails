@@ -76,8 +76,7 @@ const renderSinglePokemon = async (pokemonName) => {
    <br>
    <button>Back</button>
    `;
-
-
+  
    // grab the button via querySelect
    const button = document.querySelector(`button`);
 
