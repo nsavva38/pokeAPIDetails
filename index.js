@@ -1,8 +1,8 @@
 // https://pokeapi.co/api/v2/pokemon/${pokemonName}
 
 
-  // grab the main element and make it global so it can be used in all functions
-  const main = document.querySelector(`main`);
+// grab the main element and make it global so it can be used in all functions
+const main = document.querySelector(`main`);
 
 // fetch the pokemon from the API, don't forget async/await
 const getAllPokemon = async () => {
