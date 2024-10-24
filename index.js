@@ -13,9 +13,6 @@ const getAllPokemon = async () => {
   
   return allPokemon;
 
-
-
-
 }
 
 
