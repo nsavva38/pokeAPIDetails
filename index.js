@@ -36,11 +36,9 @@ const renderAllPokemon = async () => {
   // append the LI to the ol via innerHTML because the LIs have li tags
   ol.innerHTML = pokemonNamesLIs.join(``); // join(``) is used to get rid of all the commas separating the elemnts in the array
   
-  // replaceChildren ol to the main so when we go 
-  // back to the main page, it will go back
-  // to what it was
-  // cant use the bunnies method because this is an API I guess
-  // does it replace ALL elements within main to the ol??????
+  // replaceChildren ol to the main so when we go back to the main page, it will go back to what it was
+  // Cant use the bunnies method because this is an API I guess
+  // Does it replace ALL elements within main to the ol??????
   main.replaceChildren(ol);
   
   
